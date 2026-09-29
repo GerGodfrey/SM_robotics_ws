@@ -10,6 +10,7 @@ setup.py
 ../../build/basics/basics.egg-info/zip-safe
 basics/__init__.py
 basics/velocity_publisher.py
+basics/velocity_subscriber.py
 resource/basics
 test/test_copyright.py
 test/test_flake8.py

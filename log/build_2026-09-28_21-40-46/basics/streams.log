@@ -1,0 +1,25 @@
+[0.671s] Invoking command in '/home/godfrey/robotics_ws/src/basics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/godfrey/robotics_ws/build/basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godfrey/robotics_ws/install/basics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basics build --build-base /home/godfrey/robotics_ws/build/basics/build install --record /home/godfrey/robotics_ws/build/basics/install.log --install-scripts $base/lib/basics --single-version-externally-managed install_data
+[0.791s] running egg_info
+[0.797s] writing ../../build/basics/basics.egg-info/PKG-INFO
+[0.798s] writing dependency_links to ../../build/basics/basics.egg-info/dependency_links.txt
+[0.798s] writing entry points to ../../build/basics/basics.egg-info/entry_points.txt
+[0.798s] writing requirements to ../../build/basics/basics.egg-info/requires.txt
+[0.798s] writing top-level names to ../../build/basics/basics.egg-info/top_level.txt
+[0.821s] reading manifest file '../../build/basics/basics.egg-info/SOURCES.txt'
+[0.823s] writing manifest file '../../build/basics/basics.egg-info/SOURCES.txt'
+[0.823s] running build
+[0.823s] running build_py
+[0.823s] copying basics/velocity_subscriber.py -> /home/godfrey/robotics_ws/build/basics/build/lib/basics
+[0.824s] running install
+[0.828s] running install_lib
+[0.835s] copying /home/godfrey/robotics_ws/build/basics/build/lib/basics/velocity_subscriber.py -> /home/godfrey/robotics_ws/install/basics/lib/python3.12/site-packages/basics
+[0.835s] byte-compiling /home/godfrey/robotics_ws/install/basics/lib/python3.12/site-packages/basics/velocity_subscriber.py to velocity_subscriber.cpython-312.pyc
+[0.835s] running install_data
+[0.835s] running install_egg_info
+[0.842s] removing '/home/godfrey/robotics_ws/install/basics/lib/python3.12/site-packages/basics-0.0.0-py3.12.egg-info' (and everything under it)
+[0.843s] Copying ../../build/basics/basics.egg-info to /home/godfrey/robotics_ws/install/basics/lib/python3.12/site-packages/basics-0.0.0-py3.12.egg-info
+[0.843s] running install_scripts
+[0.892s] Installing velocity_publisher script to /home/godfrey/robotics_ws/install/basics/lib/basics
+[0.892s] Installing velocity_subscriber script to /home/godfrey/robotics_ws/install/basics/lib/basics
+[0.893s] writing list of installed files to '/home/godfrey/robotics_ws/build/basics/install.log'
+[0.913s] Invoked command in '/home/godfrey/robotics_ws/src/basics' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/godfrey/robotics_ws/build/basics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godfrey/robotics_ws/install/basics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basics build --build-base /home/godfrey/robotics_ws/build/basics/build install --record /home/godfrey/robotics_ws/build/basics/install.log --install-scripts $base/lib/basics --single-version-externally-managed install_data
